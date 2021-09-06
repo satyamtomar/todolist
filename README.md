@@ -3,4 +3,5 @@
   https://satyamtodolist.herokuapp.com/
   
   
-  todolistsatyam.netlify.app
+  
+  https://todolistsatyam.netlify.app
