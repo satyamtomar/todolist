@@ -83,12 +83,11 @@ const Todo = () => {
                 <figcaption>Add Your List Here</figcaption>
                  </figure>
                  <div className="addItems">
-                    <input type="text" placeholder="Add Item" className="form-control" value={inputdata} onChange={(event) => setInputData(event.target.value)}/>
+                    <input type="text" placeholder="Add items here" className="form-control" value={inputdata} onChange={(event) => setInputData(event.target.value)}/>
                     {
                         toggleButton ?  <i className="fa fa-edit add-btn" onClick={addItem}></i> :
                         <i className="fa fa-plus add-btn" onClick={addItem}></i>
                     }
-                    {/* <i className="fa fa-plus add-btn" onClick={addItem}></i> */}
                  </div>
                  {/* show items */}
                  <div className="showItems">
@@ -109,8 +108,8 @@ const Todo = () => {
                  {/* remove items */}
                  <div className="showItems">
                  
-                 <button  className="btn effect04" data-sm-link-text="Remove All" onClick={removeAll}>
-                <span> Check List</span>
+                 <button  className="btn effect04" data-sm-link-text="Remove All Items" onClick={removeAll}>
+                <span> Check Your List</span>
                  </button>
                  </div>
              </div>
